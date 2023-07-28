@@ -1,0 +1,123 @@
+.wrapper{
+    margin:90px ;
+}
+.search-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-bar{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:5;
+}
+.search-bar > input {
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+}
+.search-bar> input[type = "submit"]{
+    background-color: #1c6d6a;
+    color: #fff;
+    width: 15%;
+    border: none;
+    border: 1px solid #1c6d6a;
+    padding: 0px;
+}
+.search-bar > input:hover{
+    background-color: #ffffff;
+    color: #1c6d6a;
+    border: 1px solid #1c6d6a;
+}
+.searches{
+
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.searches > input {
+    background-color: #1c6d6a;
+    height: 30px;
+    width: 100%;
+    border:none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.2s ease-in;
+}
+.searches > input:hover{
+    background-color: #ffffff;
+    color: #1c6d6a;
+    border: 1px solid #1c6d6a;
+}
+ .card-grid {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 2.8rem;
+}
+
+.card {
+	display: flex;
+	flex-direction:column;
+	gap:0.3rem;
+  background-color: #ffff;
+ padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 60%;
+}
+
+.card h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.add-cart > input{
+  background-color: #1c6d6a;;
+  border: none;
+  color: white;
+  font-size: 1.08rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+.add-cart > input:hover{
+  background-color: rgb(255, 255, 255);
+  color: #1c6d6a;
+  border: #1c6d6a 1px solid;
+  transition: all 0.3s ease-in-out;
+}
+/* Add hover effect on cards */
+.card:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+  .footer-section{
+      background-color: #1c6d6a;
+      color: #fff;
+      padding: 20px;
+      margin-top: 50px;
+      width:100%;
+      bottom:0;
+  }
